@@ -65,7 +65,7 @@ base <- pacientes %>%
   mutate(n_geno = ifelse(is.na(n_geno), 0L, n_geno))
 
 
-# Excepción: el paciente "NHC_anonimizado" se aclaró (17/01/2023) después del cierre
+# Excepción: el paciente "NHC_anonimizado" se aclaró después del cierre
 # administrativo del seguimiento (31/12/2022). Se incluye con tiempo 0
 # (censurado en el aclaramiento) en lugar de un tiempo negativo.
 df_recur <- df_recur %>%

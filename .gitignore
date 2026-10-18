@@ -1,0 +1,9 @@
+*.xlsx
+*.xls
+*.dta
+*.csv
+*.RData
+*.rds
+.Rhistory
+.DS_Store
+salidas_tesis/
